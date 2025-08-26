@@ -44,10 +44,10 @@ export default function ContactSection() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-7xl font-bold mb-6 gradient-text">
-            Let's Create Together
+            Let's Work Together
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to transform your digital vision? Let's discuss your project and bring your ideas to life.
+            Ready to bring your ideas to life? Let's discuss your project and create something amazing together.
           </p>
         </motion.div>
 
@@ -69,7 +69,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-muted-foreground">hello@morphicdreams.com</p>
+                    <p className="text-muted-foreground">maramawit.dev@gmail.com</p>
                   </div>
                 </div>
 
@@ -89,30 +89,30 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-semibold">Location</p>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-muted-foreground">Germiston, Gauteng, South Africa</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="glass p-8 rounded-2xl">
-              <h4 className="text-xl font-bold mb-4">Why Choose Us?</h4>
+              <h4 className="text-xl font-bold mb-4">Why Work With Me?</h4>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                  Creative & innovative solutions
+                  Full-stack development expertise
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-accent-pink rounded-full mr-3"></div>
-                  Cutting-edge technology
+                  Modern React & TypeScript
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-secondary-glow rounded-full mr-3"></div>
-                  Timely project delivery
+                  Clean, maintainable code
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-primary-glow rounded-full mr-3"></div>
-                  Ongoing support & maintenance
+                  Timely project delivery
                 </li>
               </ul>
             </div>
@@ -125,7 +125,7 @@ export default function ContactSection() {
             viewport={{ once: true }}
           >
             <form onSubmit={handleSubmit} className="glass-dark p-8 rounded-2xl space-y-6">
-              <h3 className="text-2xl font-bold mb-6">Send us a message</h3>
+              <h3 className="text-2xl font-bold mb-6">Send me a message</h3>
               
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">
@@ -170,7 +170,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   required
                   className="glass border-white/10 focus:border-primary min-h-32"
-                  placeholder="Tell us about your project..."
+                  placeholder="Tell me about your project..."
                 />
               </div>
 
