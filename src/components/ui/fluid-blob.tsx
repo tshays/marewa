@@ -107,13 +107,20 @@ void main() {
 `;
 
 function LavaLampShader() {
-  const meshRef = useRef();
+  const meshRef = useRef<THREE.Mesh>(null);
   const { size } = useThree();
   
-  const uniforms = useMemo(() => ({
-    time: { value: 0 },
-    resolution: { value: new THREE.Vector4() }
-  }), []);
+  const material = useMemo(() => {
+    return new THREE.ShaderMaterial({
+      uniforms: {
+        time: { value: 0 },
+        resolution: { value: new THREE.Vector4() }
+      },
+      vertexShader,
+      fragmentShader,
+      transparent: true
+    });
+  }, []);
 
   // Update resolution when size changes
   React.useEffect(() => {
@@ -129,23 +136,18 @@ function LavaLampShader() {
       a2 = (height / width) / imageAspect;
     }
     
-    uniforms.resolution.value.set(width, height, a1, a2);
-  }, [size, uniforms]);
+    material.uniforms.resolution.value.set(width, height, a1, a2);
+  }, [size, material]);
 
   useFrame((state) => {
-    if (meshRef.current) {
-      uniforms.time.value = state.clock.elapsedTime;
+    if (material) {
+      material.uniforms.time.value = state.clock.elapsedTime;
     }
   });
 
   return (
-    <mesh ref={meshRef}>
+    <mesh ref={meshRef} material={material}>
       <planeGeometry args={[5, 5]} />
-      <shaderMaterial
-        uniforms={uniforms}
-        vertexShader={vertexShader}
-        fragmentShader={fragmentShader}
-      />
     </mesh>
   );
 }
