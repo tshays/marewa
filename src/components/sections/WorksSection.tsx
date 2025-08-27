@@ -4,83 +4,63 @@ import { motion } from 'framer-motion';
 
 const portfolioData: GalleryItem[] = [
   {
-    common: 'E-Commerce Platform',
-    binomial: 'Modern Retail Solution',
+    common: 'Universal Printing',
+    binomial: 'Branding & Printing Services',
     photo: {
-      url: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&auto=format&fit=crop&q=80',
-      text: 'sleek e-commerce interface with modern design',
+      url: '/lovable-uploads/cc88107a-d5f7-4e03-9f51-c8e6c2fdedf2.png',
+      text: 'modern printing and branding website with vibrant gradient design',
       pos: '50% 30%',
-      by: 'TechCorp Inc.'
+      by: 'Maramawit Dereje'
     }
   },
   {
-    common: 'Healthcare App',
-    binomial: 'Medical Innovation',
+    common: 'About Us Portal',
+    binomial: 'Company Information Hub',
     photo: {
-      url: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&auto=format&fit=crop&q=80',
-      text: 'healthcare mobile application interface',
+      url: '/lovable-uploads/780de1ca-ae73-4735-82e0-7b3ad1973db1.png',
+      text: 'elegant about us page with clean design and professional layout',
       pos: '50% 40%',
-      by: 'MedTech Solutions'
+      by: 'Maramawit Dereje'
     }
   },
   {
-    common: 'Financial Dashboard',
-    binomial: 'Data Visualization',
+    common: 'Afronex Tech Hub',
+    binomial: 'Technology Innovation Platform',
     photo: {
-      url: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80',
-      text: 'modern financial dashboard with charts and graphs',
+      url: '/lovable-uploads/a8092ee6-b87d-43e6-ad83-247619b58b9d.png',
+      text: 'modern tech platform with purple gradient and clean interface',
       pos: '50% 25%',
-      by: 'FinanceFlow'
+      by: 'Maramawit Dereje'
     }
   },
   {
-    common: 'Creative Portfolio',
-    binomial: 'Digital Showcase',
+    common: 'Eastern Development Initiative',
+    binomial: 'Community Development Platform',
     photo: {
-      url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=80',
-      text: 'creative portfolio website design',
+      url: '/lovable-uploads/4b48ca9d-8ce5-4c69-ab7e-2da76f64b01f.png',
+      text: 'professional development organization website with modern design',
       pos: '50% 35%',
-      by: 'Artist Collective'
+      by: 'Maramawit Dereje'
     }
   },
   {
-    common: 'Restaurant Website',
-    binomial: 'Culinary Experience',
+    common: 'Eder Authentication',
+    binomial: 'Secure Login System',
     photo: {
-      url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&auto=format&fit=crop&q=80',
-      text: 'elegant restaurant website with food imagery',
+      url: '/lovable-uploads/c1847e07-b2fb-4886-9c47-8363b257b562.png',
+      text: 'modern dual-panel login interface with dark theme',
       pos: '50% 40%',
-      by: 'Gourmet Bistro'
+      by: 'Maramawit Dereje'
     }
   },
   {
-    common: 'Tech Startup',
-    binomial: 'Innovation Platform',
+    common: 'EDR Admin Portal',
+    binomial: 'Management Dashboard',
     photo: {
-      url: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80',
-      text: 'modern tech startup landing page',
+      url: '/lovable-uploads/8e18e929-a5c5-4b95-9265-bb893474a56f.png',
+      text: 'clean admin login page with professional branding',
       pos: '50% 30%',
-      by: 'Innovation Labs'
-    }
-  },
-  {
-    common: 'Education Platform',
-    binomial: 'Learning Management',
-    photo: {
-      url: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&auto=format&fit=crop&q=80',
-      text: 'educational platform interface design',
-      pos: '50% 25%',
-      by: 'EduTech Solutions'
-    }
-  },
-  {
-    common: 'Travel Agency',
-    binomial: 'Journey Planner',
-    photo: {
-      url: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop&q=80',
-      text: 'travel booking website with destination imagery',
-      pos: '50% 45%',
-      by: 'Wanderlust Travel'
+      by: 'Maramawit Dereje'
     }
   }
 ];
