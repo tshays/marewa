@@ -65,11 +65,11 @@ export default function ContactSection() {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="glass p-3 rounded-lg">
-                    <Mail className="h-6 w-6 text-primary" />
+                    <MapPin className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <p className="font-semibold">Email</p>
-                    <p className="text-muted-foreground">maramawit.dev@gmail.com</p>
+                    <p className="font-semibold">Location</p>
+                    <p className="text-muted-foreground">Dire Dawa, Ethiopia</p>
                   </div>
                 </div>
 
@@ -79,17 +79,27 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+251 93 918 6449</p>
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-4">
                   <div className="glass p-3 rounded-lg">
-                    <MapPin className="h-6 w-6 text-secondary-glow" />
+                    <Mail className="h-6 w-6 text-secondary-glow" />
                   </div>
                   <div>
-                    <p className="font-semibold">Location</p>
-                    <p className="text-muted-foreground">Germiston, Gauteng, South Africa</p>
+                    <p className="font-semibold">Email</p>
+                    <p className="text-muted-foreground">maramawitdereje93@gmail.com</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4">
+                  <div className="glass p-3 rounded-lg">
+                    <Mail className="h-6 w-6 text-primary-glow" />
+                  </div>
+                  <div>
+                    <p className="font-semibold">Website</p>
+                    <p className="text-muted-foreground">maramawit.netlify.app</p>
                   </div>
                 </div>
               </div>

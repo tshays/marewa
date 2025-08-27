@@ -57,15 +57,10 @@ export default function AboutSection() {
           >
             <div className="glass-dark p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4 text-primary-glow">About Me</h3>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                Hi, I'm Maramawit Dereje, a passionate software engineer based in South Africa. 
-                With expertise in modern web technologies and full-stack development, I specialize 
-                in React, TypeScript, and cutting-edge frameworks to create exceptional digital experiences.
-              </p>
               <p className="text-muted-foreground leading-relaxed">
-                I believe in writing clean, maintainable code and delivering solutions that make a 
-                real impact. My approach combines technical excellence with creative problem-solving, 
-                ensuring every project exceeds expectations and drives meaningful results.
+                I'm Maramawit Dereje, a digital services specialist grounded in Electrical and Computer Engineering (BSc, Dire Dawa University, 2024). I bring hands-on experience in web development—think responsive sites, eCommerce platforms, WordPress customizations, and tools like HTML, CSS/Bootstrap, JavaScript, PHP/CodeIgniter, MySQL, and React—and practical know-how with Firebase for authentication and database management.
+                <br /><br />
+                On the IT front, I manage infrastructure, troubleshoot systems, and support teams to keep operations smooth and secure. I'm also skilled with Canva, crafting graphics that complement branding and online visibility. Fluent in Amharic and English, I focus on building user-centered, high-performing digital solutions that help organizations grow and thrive.
               </p>
             </div>
 
