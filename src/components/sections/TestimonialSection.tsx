@@ -3,34 +3,28 @@ import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 
 const testimonials = [
   {
-    quote: "Working with Maramawit transformed our digital presence completely. Her attention to detail and innovative approach in software development exceeded all our expectations. The solutions she delivered were not just functional but truly revolutionary.",
-    name: "Sarah Johnson",
-    designation: "CEO at TechVision",
-    src: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&auto=format&fit=crop&q=80",
+    quote: "Maramawit's ability to grasp complex concepts and turn them into practical, impactful solutions is remarkable. She consistently demonstrates a commitment to learning and applies her skills effectively in real-world scenarios. Her proactive attitude and dedication make her an asset in any professional setting",
+    name: "YeneAkal",
+    designation: "Lead Trainer, Dire Dawa Polytechnic College",
+    src: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
   },
   {
-    quote: "Maramawit's expertise in software engineering and problem-solving skills are exceptional. She delivered a robust solution that directly impacted our business growth and streamlined our operations significantly.",
-    name: "Michael Chen", 
-    designation: "Founder at StartupLab",
-    src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+    quote: "Maramawit is a dynamic and results-driven professional who brings both technical expertise and a collaborative spirit to the team. Her contributions to web development and IT projects have been instrumental in achieving our organizational goals. She exemplifies excellence in every task she undertakes",
+    name: "Tsega Endashaw",
+    designation: "General Manager of Afronex Tech Hub",
+    src: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
   },
   {
-    quote: "From concept to execution, every detail was handled with professionalism and technical excellence. Maramawit's innovative solutions were beyond what we imagined possible for our project.",
-    name: "Emily Rodriguez",
-    designation: "Marketing Director at GlobalCorp", 
-    src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&auto=format&fit=crop&q=80",
+    quote: "Working with Maramawit has been an absolute pleasure. Her expertise in IT systems and her ability to manage complex technical challenges have greatly improved our operations. She is always ready to support her colleagues, share knowledge, and ensure the smooth functioning of our IT infrastructure. Maramawit's professionalism, dedication, and team-oriented approach make her an invaluable part of any team.",
+    name: "Kidus Belete",
+    designation: "IT Support at Delt YemeriyamWerk General Hospital",
+    src: "/lovable-uploads/c5d3ef7d-52a2-466f-8c95-f7edc6d0594e.png",
   },
   {
-    quote: "Outstanding technical expertise and robust software solutions. It's rare to find a developer who delivers on all promises while maintaining such high code quality and innovation.",
-    name: "James Kim",
-    designation: "Engineering Lead at DataPro",
-    src: "https://images.unsplash.com/photo-1636041293178-808a6762ab39?w=400&auto=format&fit=crop&q=80",
-  },
-  {
-    quote: "The scalability and performance of Maramawit's solutions have been game-changing for our organization. Her development skills and technical vision are truly exceptional.",
-    name: "Lisa Thompson", 
-    designation: "VP of Technology at FutureNet",
-    src: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?w=400&auto=format&fit=crop&q=80",
+    quote: "Working with Maramawit has been an absolute pleasure. Her expertise in IT systems and her ability to manage complex technical challenges have greatly improved our operations. She is always ready to support her colleagues, share knowledge, and ensure the smooth functioning of our IT infrastructure. Maramawit's professionalism, dedication, and team-oriented approach make her an invaluable part of any team.",
+    name: "Abel Nuri",
+    designation: "IT Support at Delt YemeriyamWerk General Hospital",
+    src: "/lovable-uploads/e4184006-aaec-4a4a-9452-3e6fb145ce44.png",
   }
 ];
 
