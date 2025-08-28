@@ -81,8 +81,8 @@ const WorksSection = () => {
             viewport={{ once: true }}
             className="text-center mb-8 absolute top-16 z-10"
           >
-            <h2 className="text-4xl md:text-6xl font-bold gradient-text mb-4">Our Portfolio</h2>
-            <p className="text-muted-foreground text-lg">Scroll to explore our creative journey</p>
+            <h2 className="text-4xl md:text-6xl font-bold gradient-text mb-4">My Portfolio</h2>
+            <p className="text-muted-foreground text-lg">Scroll to explore my creative journey</p>
           </motion.div>
           
           <div className="w-full h-full">

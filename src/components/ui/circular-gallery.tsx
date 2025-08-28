@@ -123,7 +123,7 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
                   <img
                     src={item.photo.url}
                     alt={item.photo.text}
-                    className="absolute inset-0 w-full h-full object-cover"
+                    className="absolute inset-0 w-full h-full object-contain object-center"
                     style={{ objectPosition: item.photo.pos || 'center' }}
                   />
                   {/* Replaced text-primary-foreground with text-white for consistent color */}
