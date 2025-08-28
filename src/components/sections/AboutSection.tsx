@@ -19,7 +19,7 @@ export default function AboutSection() {
             About Maramawit
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Passionate software engineer crafting innovative digital solutions that transform ideas into reality.
+            Passionate computer engineer crafting innovative digital solutions that transform ideas into reality.
           </p>
         </motion.div>
 
@@ -33,7 +33,7 @@ export default function AboutSection() {
           >
             <ProfileCard
               name="Maramawit Dereje"
-              title="Software Engineer"
+              title="Computer Engineer"
               handle="maramawit"
               status="Available for Projects"
               contactText="Let's Connect"

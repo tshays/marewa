@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 
 interface Footer7Props {
   logo?: {
@@ -56,10 +57,11 @@ const defaultSections = [
 ];
 
 const defaultSocialLinks = [
-  { icon: <FaInstagram className="size-5" />, href: "#", label: "Instagram" },
-  { icon: <FaFacebook className="size-5" />, href: "#", label: "Facebook" },
-  { icon: <FaTwitter className="size-5" />, href: "#", label: "Twitter" },
+  { icon: <FaTelegram className="size-5" />, href: "https://t.me/Maridebahiru", label: "Telegram" },
   { icon: <FaLinkedin className="size-5" />, href: "https://www.linkedin.com/in/maramawit-dereje-b1a00b244", label: "LinkedIn" },
+  { icon: <FaFacebook className="size-5" />, href: "https://web.facebook.com/marmawit.dereje", label: "Facebook" },
+  { icon: <FaGithub className="size-5" />, href: "https://github.com/maramawitdereje", label: "GitHub" },
+  { icon: <FaEnvelope className="size-5" />, href: "mailto:maramawitdereje93@gmail.com", label: "Email" },
 ];
 
 const defaultLegalLinks = [
