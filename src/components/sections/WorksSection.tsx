@@ -7,7 +7,7 @@ const portfolioData: GalleryItem[] = [
     common: 'Universal Printing',
     binomial: 'Branding & Printing Services',
     photo: {
-      url: '/lovable-uploads/cc88107a-d5f7-4e03-9f51-c8e6c2fdedf2.png',
+      url: '/mary/cc88107a-d5f7-4e03-9f51-c8e6c2fdedf2.png',
       text: 'modern printing and branding website with vibrant gradient design',
       pos: '50% 30%',
       by: 'Maramawit Dereje'
@@ -17,7 +17,7 @@ const portfolioData: GalleryItem[] = [
     common: 'About Us Portal',
     binomial: 'Company Information Hub',
     photo: {
-      url: '/lovable-uploads/780de1ca-ae73-4735-82e0-7b3ad1973db1.png',
+      url: '/mary/780de1ca-ae73-4735-82e0-7b3ad1973db1.png',
       text: 'elegant about us page with clean design and professional layout',
       pos: '50% 40%',
       by: 'Maramawit Dereje'
@@ -27,7 +27,7 @@ const portfolioData: GalleryItem[] = [
     common: 'Afronex Tech Hub',
     binomial: 'Technology Innovation Platform',
     photo: {
-      url: '/lovable-uploads/a8092ee6-b87d-43e6-ad83-247619b58b9d.png',
+      url: '/mary/a8092ee6-b87d-43e6-ad83-247619b58b9d.png',
       text: 'modern tech platform with purple gradient and clean interface',
       pos: '50% 25%',
       by: 'Maramawit Dereje'
@@ -37,7 +37,7 @@ const portfolioData: GalleryItem[] = [
     common: 'Eastern Development Initiative',
     binomial: 'Community Development Platform',
     photo: {
-      url: '/lovable-uploads/4b48ca9d-8ce5-4c69-ab7e-2da76f64b01f.png',
+      url: '/mary/4b48ca9d-8ce5-4c69-ab7e-2da76f64b01f.png',
       text: 'professional development organization website with modern design',
       pos: '50% 35%',
       by: 'Maramawit Dereje'
@@ -47,7 +47,7 @@ const portfolioData: GalleryItem[] = [
     common: 'Eder Authentication',
     binomial: 'Secure Login System',
     photo: {
-      url: '/lovable-uploads/c1847e07-b2fb-4886-9c47-8363b257b562.png',
+      url: '/mary/c1847e07-b2fb-4886-9c47-8363b257b562.png',
       text: 'modern dual-panel login interface with dark theme',
       pos: '50% 40%',
       by: 'Maramawit Dereje'
@@ -57,7 +57,7 @@ const portfolioData: GalleryItem[] = [
     common: 'EDR Admin Portal',
     binomial: 'Management Dashboard',
     photo: {
-      url: '/lovable-uploads/8e18e929-a5c5-4b95-9265-bb893474a56f.png',
+      url: '/mary/8e18e929-a5c5-4b95-9265-bb893474a56f.png',
       text: 'clean admin login page with professional branding',
       pos: '50% 30%',
       by: 'Maramawit Dereje'

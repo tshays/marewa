@@ -72,7 +72,7 @@ const defaultLegalLinks = [
 export const Footer7 = ({
   logo = {
     url: "#",
-    src: "/lovable-uploads/3d7e116a-10a7-4e11-a4b0-503fe26cbaf4.png",
+    src: "/mary/3d7e116a-10a7-4e11-a4b0-503fe26cbaf4.png",
     alt: "Maramawit Dereje",
     title: "Maramawit Dereje",
   },

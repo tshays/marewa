@@ -6,25 +6,25 @@ const testimonials = [
     quote: "Maramawit's ability to grasp complex concepts and turn them into practical, impactful solutions is remarkable. She consistently demonstrates a commitment to learning and applies her skills effectively in real-world scenarios. Her proactive attitude and dedication make her an asset in any professional setting",
     name: "Lemesa",
     designation: "Lead Trainer, Dire Dawa Polytechnic College",
-    src: "/lovable-uploads/9614f4c6-8544-4d16-a2de-6dd4802716c5.png",
+    src: "/mary/9614f4c6-8544-4d16-a2de-6dd4802716c5.png",
   },
   {
     quote: "Maramawit is a dynamic and results-driven professional who brings both technical expertise and a collaborative spirit to the team. Her contributions to web development and IT projects have been instrumental in achieving our organizational goals. She exemplifies excellence in every task she undertakes",
     name: "Tsega Endashaw",
     designation: "General Manager of Afronex Tech Hub",
-    src: "/lovable-uploads/1ba2e4eb-7161-4599-a9eb-e9910adf61b9.png",
+    src: "/mary/1ba2e4eb-7161-4599-a9eb-e9910adf61b9.png",
   },
   {
     quote: "Working with Maramawit has been an absolute pleasure. Her expertise in IT systems and her ability to manage complex technical challenges have greatly improved our operations. She is always ready to support her colleagues, share knowledge, and ensure the smooth functioning of our IT infrastructure. Maramawit's professionalism, dedication, and team-oriented approach make her an invaluable part of any team.",
     name: "Kidus Belete",
     designation: "IT Support at Delt YemeriyamWerk General Hospital",
-    src: "/lovable-uploads/c5d3ef7d-52a2-466f-8c95-f7edc6d0594e.png",
+    src: "/mary/c5d3ef7d-52a2-466f-8c95-f7edc6d0594e.png",
   },
   {
     quote: "Working with Maramawit has been an absolute pleasure. Her expertise in IT systems and her ability to manage complex technical challenges have greatly improved our operations. She is always ready to support her colleagues, share knowledge, and ensure the smooth functioning of our IT infrastructure. Maramawit's professionalism, dedication, and team-oriented approach make her an invaluable part of any team.",
     name: "Abel Nuri",
     designation: "IT Support at Delt YemeriyamWerk General Hospital",
-    src: "/lovable-uploads/e4184006-aaec-4a4a-9452-3e6fb145ce44.png",
+    src: "/mary/e4184006-aaec-4a4a-9452-3e6fb145ce44.png",
   }
 ];
 

@@ -37,7 +37,7 @@ export default function AboutSection() {
               handle="maramawit"
               status="Available for Projects"
               contactText="Let's Connect"
-              avatarUrl="/lovable-uploads/3d7e116a-10a7-4e11-a4b0-503fe26cbaf4.png"
+              avatarUrl="/mary/3d7e116a-10a7-4e11-a4b0-503fe26cbaf4.png"
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
